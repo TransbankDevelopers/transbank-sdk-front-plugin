@@ -1,19 +1,15 @@
 export default class StringUtils {
+
+    static isBlankOrNull(str){
+        return !str || /^\s*$/.test(str);
+    }
+
     static isNotBlankOrNull(str){
-        if (str === null || str === undefined) {
-            return false;
-        }
-        if (typeof str !== 'string') {
-            return false; 
-        }
-        if (str.trim() === '') {
-            return false; 
-        }
-        return true;
+        return !StringUtils.isBlankOrNull(str);
     }
 
     static hasLength(str, length){
-        if (!StringUtils.isNotBlankOrNull(str)){
+        if (StringUtils.isBlankOrNull(str)){
             return false;
         }
         if (str.trim().length !== length){
@@ -23,7 +19,7 @@ export default class StringUtils {
     }
 
     static isNumber(str){
-        if (!StringUtils.isNotBlankOrNull(str)){
+        if (StringUtils.isBlankOrNull(str)){
             return false;
         }
         let pattern = /^[0-9]+$/;
