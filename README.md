@@ -1,5 +1,5 @@
 ![N|Transbank](https://publico.transbank.cl/o/fragmentos-theme/images/logo_transbank_color.svg)
- # **Transbank Sdk Fron - Plugin 📝**
+ # **Transbank Sdk Front - Plugin 📝**
 
 Pantallas de administración de los plugin php de Transbank
 
