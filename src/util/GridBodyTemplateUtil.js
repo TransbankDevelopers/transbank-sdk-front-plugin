@@ -1,6 +1,6 @@
 import { Tag } from "primereact/tag";
 import { INSCRIPTIONS_STATUS_SEVERITY, TRANSACTION_STATUS_SEVERITY, 
-    TRANSACTION_TBK_REFUND_SEVERITY, TRANSACTION_TBK_STATUS_SEVERITY } from "./SeverityConstans";
+    TRANSACTION_TBK_REFUND_SEVERITY, TRANSACTION_TBK_STATUS_SEVERITY } from "./SeverityConstants";
 import { Button } from "primereact/button";
 import { getOrderUrl } from "./UrlUtil";
 

@@ -1,6 +1,6 @@
 import { Dropdown } from "primereact/dropdown";
 import { ENVIROMENT_LIST, INSCRIPTIONS_STATUS, PRODUCT_LIST, SERVICE_LIST, 
-    TRANSACTION_STATUS_LIST, TRANSACTION_TBK_REFUND_LIST, TRANSACTION_TBK_STATUS_LIST } from "./TbkConstans";
+    TRANSACTION_STATUS_LIST, TRANSACTION_TBK_REFUND_LIST, TRANSACTION_TBK_STATUS_LIST } from "./TbkConstants";
 
 export const createFilerDropdown = (list) => {
     return (options) => {
